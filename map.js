@@ -9,3 +9,9 @@ const ifEvenSquare = array.map(Element => {
     return Element % 2 === 0 ? Element * Element : Element;
 })
 console.log(ifEvenSquare);
+
+// add 5 with every element
+const addFive = array.map(Element => {
+    return Element + 5;
+})
+console.log(addFive);
